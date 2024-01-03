@@ -8,7 +8,7 @@ namespace DapperContrib
 {
     class Program
     {
-        static string ConnectionString = @"Data Source=DESKTOP-95SGKO8;Initial Catalog=BookStoreContext;Integrated Security=True;Encrypt=False";
+        static string ConnectionString = @"Data Source="YOUR_SQL_SERVER_USERNAME";Initial Catalog=BookStoreContext;Integrated Security=True;Encrypt=False";
 
         static void Main(string[] args)
         {
